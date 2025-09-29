@@ -1,6 +1,6 @@
 import pygame
 import random
-from constants import WHITE, BLUE, RED, GREEN, YELLOW, BLACK, PURPLE
+from constants import *
 
 class Particle:
     def __init__(self, x, y, color):
@@ -20,4 +20,5 @@ class Particle:
         return self.life > 0
     
     def draw(self, surface):
+
         pygame.draw.circle(surface, self.color, (int(self.x), int(self.y)), int(self.size))
