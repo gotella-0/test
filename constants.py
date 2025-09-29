@@ -1,0 +1,18 @@
+import pygame
+
+# Game constants
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+PLAYER_SIZE = 50
+OBJECT_SIZE = 30
+PLAYER_SPEED = 5
+OBJECT_SPEED = 3
+
+# Colors
+WHITE = (255, 255, 255)
+BLUE = (0, 120, 255)
+RED = (255, 50, 50)
+GREEN = (50, 200, 50)
+YELLOW = (255, 255, 0)
+BLACK = (0, 0, 0)
+PURPLE = (180, 0, 255)
