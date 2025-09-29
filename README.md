@@ -80,12 +80,16 @@ An enhanced version of a classic catch-the-falling-objects game built with Pytho
 
 ## Code Structure
 
-The game is organized into several classes:
+The game is now organized into modular components for better maintainability:
 
-- `Particle`: Handles visual effects
-- `Player`: Manages player movement and rendering
-- `FallingObject`: Represents the various falling objects
-- `Game`: Main game controller handling states, events, and updates
+- **[constants.py](file:///D:/Scripts/py/pyGame/constants.py)**: Game constants and color definitions
+- **[particle.py](file:///D:/Scripts/py/pyGame/particle.py)**: Particle class for visual effects
+- **[player.py](file:///D:/Scripts/py/pyGame/player.py)**: Player class for movement and rendering
+- **[falling_object.py](file:///D:/Scripts/py/pyGame/falling_object.py)**: FallingObject class for different object types
+- **[game_logic.py](file:///D:/Scripts/py/pyGame/game_logic.py)**: Main Game class with game loop and state management
+- **[game.py](file:///D:/Scripts/py/pyGame/game.py)**: Main entry point that initializes Pygame and starts the game
+
+This modular structure improves code organization, reusability, and maintainability.
 
 ## Possible Enhancements
 
