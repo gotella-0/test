@@ -1,5 +1,10 @@
 import pygame
 
+# Initialize pygame
+pygame.init()
+pygame.mixer.init()
+
+
 # Game constants
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
@@ -27,3 +32,4 @@ DARK_GREEN = (0, 100, 0)
 MAX_LIVES = 5
 LEVEL_SCORE_INCREMENT = 10
 COMBO_TIMEOUT = 180  # frames (3 seconds at 60 FPS)
+
