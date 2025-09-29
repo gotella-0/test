@@ -1,6 +1,6 @@
 import pygame
 import random
-from constants import SCREEN_WIDTH, SCREEN_HEIGHT, OBJECT_SIZE, OBJECT_SPEED, RED, GREEN, YELLOW, PURPLE
+from constants import *
 
 class FallingObject:
     def __init__(self, obj_type="normal"):
@@ -54,4 +54,5 @@ class FallingObject:
         return (self.x < player.x + player.width and
                 self.x + self.width > player.x and
                 self.y < player.y + player.height and
+
                 self.y + self.height > player.y)
